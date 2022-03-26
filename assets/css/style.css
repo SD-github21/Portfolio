@@ -112,7 +112,7 @@ header nav ul {
   padding: 10px 15px;
 }
 
-.about-me h3 {
+.about-me h2 {
   font-size: 45px;
   font-style: oblique;
   color: var(--primary-color);
@@ -121,10 +121,36 @@ header nav ul {
 
 .about-me p {
   font-size: 20px;
-  color: black;
+  color: navy;
   flex: 1 0 55%;
   padding: 10px 15px;
   border-left: 4mm ridge rgba(39, 240, 103, 0.8);
 }
 /* BIO SECTION END */
 
+/* CONTACT ME SECTION */
+
+.contact-me {
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding: 10px 15px;
+}
+
+.contact-me h2 {
+  font-size: 45px;
+  font-style: oblique;
+  color: var(--primary-color);
+  flex: 0 0 25%;
+}
+
+.contact-me ul {
+  font-size: 20px;
+  color: navy;
+  flex: 1 0 55%;
+  padding: 10px 15px;
+  border-left: 4mm ridge rgba(39, 240, 103, 0.8);
+  list-style: none;
+}
