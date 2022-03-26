@@ -109,7 +109,7 @@ header nav ul {
   width:100%;
   margin: 0 auto;
   justify-content: space-between;
-  padding: 10px 15px;
+  padding: 25px 15px;
 }
 
 .about-me h2 {
@@ -129,14 +129,13 @@ header nav ul {
 /* BIO SECTION END */
 
 /* WORK SAMPLES */
-
 .work-samples {
   display: flex;
   flex-wrap: wrap;
   width:100%;
   margin: 0 auto;
   justify-content: space-between;
-  padding: 10px 15px;
+  padding: 25px 15px;
 }
 
 .work-samples h2 {
@@ -154,6 +153,11 @@ header nav ul {
   border-left: 4mm ridge rgba(39, 240, 103, 0.8);
   list-style: none;
 }
+
+.sample h3 {
+  padding: 0px 0px 20px 0px;
+}
+
 /* CONTACT ME SECTION */
 
 .contact-me {
@@ -162,7 +166,7 @@ header nav ul {
   width:100%;
   margin: 0 auto;
   justify-content: space-between;
-  padding: 10px 15px;
+  padding: 25px 15px;
 }
 
 .contact-me h2 {
