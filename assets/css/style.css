@@ -128,8 +128,10 @@ header nav ul {
 }
 /* BIO SECTION END */
 
-/* CONTACT ME SECTION */
 
+
+
+/* CONTACT ME SECTION */
 .contact-me {
   display: flex;
   flex-wrap: wrap;
