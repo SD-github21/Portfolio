@@ -84,4 +84,48 @@ header nav ul {
     color: var(--primary-color);
     margin: auto;
   }
-  
+
+
+/* Bio section styles */  
+
+.my-bio {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+}
+
+.bio-picture {
+  width: 35%;
+  height: 35%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding: 10px 15px;
+
+}
+
+
+.about-me h3 {
+  font-size: 24px;
+  color: var(--primary-color);
+  flex: 0 0 45%;
+}
+
+.about-me p {
+  font-size: 20px;
+  color: black;
+  flex: 0 0 55%;
+
+}
