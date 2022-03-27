@@ -200,6 +200,7 @@ footer h2 {
   padding: 0px 5px;
 }
 
+
 .first-sample {
   flex: 2;
   padding: 5px;
@@ -208,6 +209,7 @@ footer h2 {
   border-color: #4ccad8;
   margin: 20px 40px; 
 }
+
 
 .first-sample h3 {
   font-size: 20px;
@@ -251,5 +253,13 @@ footer h2 {
   min-width: 400px;
   padding: 10px 15px;
 }
+
+.shrink { 
+  transition: all .2s ease-in-out; 
+  }
+  
+.shrink:hover { 
+  transform: scale(0.9); 
+  }
 /* WORK SAMPLES SECTION END */
 
