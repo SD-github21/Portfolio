@@ -260,3 +260,49 @@ footer h2 {
   }
 /* WORK SAMPLES SECTION END */
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 8208px) {
+
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+  
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content:center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .about-me h2 {
+    font-size: 45px;
+    font-style: oblique;
+    color: var(--primary-color);
+    padding: 0px 25px;
+    border-right: 4mm ridge rgba(39, 240, 103, 0.8);
+  }
+
+
+  .contact-me ul {
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+    list-style: none;
+  }
+
+  footer h2 {
+    text-align: center;
+    width: 100%;
+  }
+}
+
