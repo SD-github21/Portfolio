@@ -152,7 +152,7 @@ header nav ul {
   border-style: outset;
   border-width: 5px;
   border-color: #4ccad8;
-  margin: 10px 10px;
+  margin: 5px 5px; 
 }
 
 .sample h3 {
@@ -169,7 +169,6 @@ header nav ul {
 .sample img {
   width: 100%;
   min-width: 400px;
-  flex: 1 0 33.33%;
   padding: 10px 15px;
 }
 
