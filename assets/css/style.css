@@ -20,8 +20,6 @@ header {
     display:flex;  
     justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
-    position: -webkit-sticky;
     top: 0;
   }
   
@@ -83,7 +81,6 @@ footer h2 {
     background-size: cover;
     display: flex;
     justify-content: center;
-    background-attachment: fixed;
     background-position: right;
     height: 200px;
   }
