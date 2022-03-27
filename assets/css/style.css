@@ -147,11 +147,12 @@ header nav ul {
 }
 
 .sample {
+  flex: 1 0 0;
   padding: 5px;
   border-style: outset;
   border-width: 5px;
   border-color: #4ccad8;
-  margin: 5px 10px;
+  margin: 10px 10px;
 }
 
 .sample h3 {
