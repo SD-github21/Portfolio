@@ -115,8 +115,8 @@ header nav ul {
 .about-me p {
   font-size: 20px;
   color: navy;
-  flex: 1 0 55%;
-  padding: 0px 0px 0px 20px;
+  flex: 1 0 50%;
+  padding: 0px 0px 0px 40px;
 }
 /* BIO SECTION END */
 
@@ -134,13 +134,13 @@ header nav ul {
   font-style: oblique;
   color: var(--primary-color);
   border-right: 4mm ridge rgba(39, 240, 103, 0.8);
-  padding: 0px 50px;
+  padding: 0px 28px;
 }
 
 .samples {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width:100%;
   margin: 0 auto;
   padding: 0px 5px;
@@ -148,10 +148,10 @@ header nav ul {
 
 .sample {
   padding: 5px;
-  border-style: solid;
+  border-style: outset;
   border-width: 5px;
   border-color: #4ccad8;
-  margin: 5px 0px;
+  margin: 5px 10px;
 }
 
 .sample h3 {
@@ -181,7 +181,7 @@ header nav ul {
   width:100%;
   margin: 0 auto;
   justify-content: space-between;
-  padding: 25px 15px;
+  padding: 40px 15px;
 }
 
 
@@ -190,7 +190,7 @@ header nav ul {
   font-style: oblique;
   color: var(--primary-color);
   border-right: 4mm ridge rgba(39, 240, 103, 0.8);
-  padding: 0px 40px;
+  padding: 0px 13px;
 }
 
 .contact-me ul {
