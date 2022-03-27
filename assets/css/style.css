@@ -140,10 +140,18 @@ header nav ul {
 .samples {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width:100%;
   margin: 0 auto;
-  padding: 0px 25px;
+  padding: 0px 5px;
+}
+
+.sample {
+  padding: 5px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #4ccad8;
+  margin: 5px 0px;
 }
 
 .sample h3 {
