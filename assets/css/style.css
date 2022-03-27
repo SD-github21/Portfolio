@@ -300,9 +300,36 @@ footer h2 {
     list-style: none;
   }
 
+  contact-me h2 {
+    font-size: 45px;
+    font-style: oblique;
+    color: var(--primary-color);
+    border-right: 4mm ridge rgba(39, 240, 103, 0.8);
+    padding: 0px 10px;
+  }
+
   footer h2 {
     text-align: center;
     width: 100%;
+  }
+}
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+}
+
+  .about-me h2 {
+    font-size: 45px;
+    font-style: oblique;
+    color: var(--primary-color);
+    padding: 0px 18px;
+    border-right: 4mm ridge rgba(39, 240, 103, 0.8);
   }
 }
 
