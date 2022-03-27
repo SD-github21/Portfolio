@@ -140,6 +140,7 @@ header nav ul {
 .samples {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   width:100%;
   margin: 0 auto;
   padding: 0px 25px;
@@ -149,7 +150,11 @@ header nav ul {
   font-size: 20px;
   color: navy;
   padding: 0px 0px 20px 0px;
-  margin: auto;
+  text-align: center;
+}
+
+.sample h4 {
+  text-align: center;
 }
 
 .sample img {
